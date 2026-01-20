@@ -1,6 +1,6 @@
-# 🛍️ Task 02 - Customer Segmentation using K-Means Clustering
+# Task 02 - Customer Segmentation using K-Means Clustering
 
-## 📌 Overview
+## Overview
 Customer segmentation is an important Machine Learning application in the retail industry.  
 It helps businesses understand customer behavior, group customers into meaningful segments, and create better marketing strategies.
 
@@ -14,12 +14,12 @@ The final output provides customer clusters such as:
 
 ---
 
-## 🎯 Objective
+## Objective
 To build a **K-Means clustering model** that groups retail store customers into different segments based on their purchase patterns.
 
 ---
 
-## 📂 Dataset
+## Dataset
 Dataset used: **Mall Customers Dataset** (Kaggle)
 
 The dataset includes customer details such as:
@@ -29,12 +29,12 @@ The dataset includes customer details such as:
 - Annual Income
 - Spending Score
 
-✅ Kaggle Dataset Link:  
+Kaggle Dataset Link:  
 https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
 
 ---
 
-## ✅ Features Used for Clustering
+## Features Used for Clustering
 For segmentation, the following two features are selected:
 
 | Feature Name | Description |
@@ -46,7 +46,7 @@ These features are ideal for grouping customers into meaningful clusters.
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 - **Python**
 - **Pandas** (Data handling)
 - **NumPy** (Numerical operations)
@@ -56,7 +56,7 @@ These features are ideal for grouping customers into meaningful clusters.
 
 ---
 
-## 🔍 Project Workflow
+## Project Workflow
 ### 1️⃣ Data Loading & Exploration
 - Loaded the dataset using Pandas
 - Checked dataset shape, columns, and null values
@@ -71,11 +71,11 @@ We used **StandardScaler** to normalize the feature values.
 ### 4️⃣ Finding Optimal Number of Clusters (K)
 To decide the best number of clusters, two methods were used:
 
-✅ **Elbow Method**
+ **Elbow Method**
 - Plots WCSS (within-cluster sum of squares) for different K values  
 - Best K is found at the "elbow point"
 
-✅ **Silhouette Score**
+ **Silhouette Score**
 - Measures how well-separated the clusters are
 - Higher score indicates better clustering
 
@@ -89,16 +89,16 @@ To decide the best number of clusters, two methods were used:
 
 ### 7️⃣ Exporting Results
 The clustered dataset was saved as:
-✅ `clustered_customers.csv`
+ `clustered_customers.csv`
 
 ---
 
 ## 📊 Output
 The notebook produces:
-✅ Elbow graph to estimate optimal K  
-✅ Silhouette score graph  
-✅ Final clustered scatter plot  
-✅ Cluster summary table (mean values per cluster)  
-✅ Exported CSV with cluster labels  
+ Elbow graph to estimate optimal K  
+ Silhouette score graph  
+ Final clustered scatter plot  
+ Cluster summary table (mean values per cluster)  
+ Exported CSV with cluster labels  
 
 ---
